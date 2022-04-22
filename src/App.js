@@ -198,7 +198,7 @@ const abrirCerrarModalEditar=()=>{
 
       <Modal isOpen={modalEliminar}>
         <ModalBody>
-         Estas seguro que deseas eliminar el cadete {cadeteSeleccionado && cadeteSeleccionado.nombre} ?
+         Esta seguro que desea eliminar el cadete {cadeteSeleccionado && cadeteSeleccionado.nombre} ?
         </ModalBody>
         <ModalFooter>
           <button className='btn btn-danger' onClick={()=>peticionDelete()}>Si</button>
